@@ -312,8 +312,8 @@ namespace Seizure.Net.Server.Connections
                 }
                 else
                 {
-                    features.C("bind", Namespaces.BIND);
-                    features.C("session", Namespaces.SESSION);
+                    features.C("bind", ns: Namespaces.BIND);
+                    features.C("session", ns: Namespaces.SESSION);
                 }
             }
 
